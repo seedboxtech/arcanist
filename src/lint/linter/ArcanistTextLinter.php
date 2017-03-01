@@ -15,7 +15,7 @@ final class ArcanistTextLinter extends ArcanistLinter {
   const LINT_EOF_WHITESPACE       = 9;
   const LINT_EMPTY_FILE           = 10;
 
-  private $maxLineLength = 80;
+  private $maxLineLength = 160;
 
   public function getInfoName() {
     return pht('Basic Text Linter');
